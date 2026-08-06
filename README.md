@@ -34,3 +34,5 @@ Conclusion :
 
 Linear Search is simple and works on both sorted and unsorted arrays. Binary Search is faster but works only on sorted arrays. The time analysis shows that Binary Search takes less time than Linear Search. Therefore, Binary Search is better for large sorted data, while Linear Search is suitable for small or unsorted data.
 
+PRACTICAL-3 :
+
