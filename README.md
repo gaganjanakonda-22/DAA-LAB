@@ -36,3 +36,31 @@ Linear Search is simple and works on both sorted and unsorted arrays. Binary Sea
 
 PRACTICAL-3 :
 
+Summary
+
+In this experiment, Heap Sort was implemented using Python. The algorithm first creates a Max Heap from the given elements and then repeatedly moves the largest element to the end of the list. The heap is adjusted after each step until the complete list is sorted. Execution time was also measured to observe the performance of the algorithm.
+
+Conclusion
+
+Heap Sort is an efficient sorting algorithm that provides O(n log n) time complexity in the best, average, and worst cases. It works in-place and is suitable for sorting large datasets. This experiment helped in understanding heap creation, heapify operations, element extraction, and sorting using a binary heap.
+
+PRACTICAL-4
+
+Summary
+
+Factorial of a number was calculated using two methods: Iterative and Recursive. The iterative method uses a loop to multiply numbers from 1 to n, while the recursive method calls itself with n-1 until it reaches the base case of 0 or 1. Both methods produce the same factorial result.
+
+Conclusion
+
+The experiment helped understand the difference between iteration and recursion. The iterative method uses less memory, while the recursive method provides a simpler and more mathematical approach. Both methods have O(n) time complexity and can be used to calculate factorial effectively.
+
+PRACTICAL-7
+
+Summary
+
+The Making Change Problem was implemented using Dynamic Programming. The program stores previously calculated results and uses them to find the minimum number of coins required for the given amount.
+
+Conclusion
+
+Dynamic Programming provides an efficient solution to the Making Change Problem by avoiding repeated calculations. It is useful when the problem contains overlapping subproblems and optimal substructure.
+
