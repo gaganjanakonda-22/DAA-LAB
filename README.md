@@ -65,7 +65,7 @@ Conclusion
 Dynamic Programming provides an efficient solution to the Making Change Problem by avoiding repeated calculations. It is useful when the problem contains overlapping subproblems and optimal substructure.
 
 PRACTICAL 5:
-Summary :
+Summary 
 The 0/1 Knapsack Problem was implemented using the Dynamic Programming technique. The main objective of the program is to find the maximum value that can be obtained by selecting items without exceeding the given knapsack capacity. The program uses a dp array to store the maximum value possible for each capacity. By using previously calculated values, repeated calculations are avoided and the solution becomes more efficient.
 
 Time Complexity: O(n × capacity)
