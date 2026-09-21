@@ -85,3 +85,11 @@ Conclusion
 
 The Matrix Chain Multiplication problem demonstrates how Dynamic Programming can optimize matrix multiplication. By checking different possible parenthesizations and storing their minimum costs, we can find the most efficient multiplication order with O(n³) time complexity.
 
+ practical-8
+ Summary
+
+The program implements a **graph using an adjacency matrix** and performs two important graph traversal techniques: **DFS (Depth First Search)** and **BFS (Breadth First Search)**. DFS uses recursion to explore a graph deeply, while BFS uses a queue to visit vertices level by level. A `visited` array ensures that each vertex is visited only once.
+
+Conclusion
+
+Thus, the implementation demonstrates how **DFS and BFS can be used to traverse and search a graph efficiently**. DFS is useful for exploring paths deeply, while BFS is useful for level-by-level traversal and finding the shortest path in an unweighted graph. Both are fundamental algorithms in graph data structures.
