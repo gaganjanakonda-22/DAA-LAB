@@ -124,3 +124,13 @@ The Floyd–Warshall algorithm is used to find the shortest distances between al
  Conclusion
 
 The Floyd–Warshall algorithm efficiently calculates the shortest paths between every pair of vertices in a graph. It is simple to implement in C and is useful for solving all-pairs shortest-path problems. However, it does not provide valid shortest paths if the graph contains a negative-weight cycle.
+
+practical:12 
+
+Summary
+
+The Travelling Salesman Problem (TSP) is used to find the minimum-cost route in which a salesman visits every city exactly once and returns to the starting city. The C program uses the brute-force method to check all possible tours and determine the minimum travel cost.
+
+Conclusion
+
+The Travelling Salesman Problem helps find the shortest possible tour for visiting multiple cities. The brute-force approach is easy to understand and implement in C, but its time complexity is $O(n!)$, making it suitable mainly for a small number of cities.
