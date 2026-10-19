@@ -114,3 +114,13 @@ Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 Conclusion
 
 Kruskal’s algorithm efficiently finds the minimum-cost spanning tree of a connected weighted graph. By using edge sorting and the Union-Find technique to avoid cycles, it provides a simple and effective solution for minimum spanning tree problems.
+
+practical:11 
+
+Summary:
+
+The Floyd–Warshall algorithm is used to find the shortest distances between all pairs of vertices in a weighted graph. It uses a distance matrix and updates the shortest paths by considering each vertex as an intermediate vertex. Its time complexity is $O(n^3)$, and its space complexity is $O(n^2)$.
+
+ Conclusion
+
+The Floyd–Warshall algorithm efficiently calculates the shortest paths between every pair of vertices in a graph. It is simple to implement in C and is useful for solving all-pairs shortest-path problems. However, it does not provide valid shortest paths if the graph contains a negative-weight cycle.
